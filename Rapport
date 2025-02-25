@@ -1,0 +1,55 @@
+# Rapport Détaillé de Visualisation des Ventes
+
+## Introduction
+Ce rapport présente une analyse détaillée des données de ventes à l'aide de diverses visualisations. Les données incluent des informations sur les ventes par région, représentant commercial, catégorie de produit, type de client, méthode de paiement, canal de vente, ainsi que la répartition des montants des ventes et des quantités vendues.
+
+## Distribution des Ventes par Région
+La visualisation ci-dessous montre la distribution des ventes par région. Elle permet d'identifier les régions avec les ventes les plus élevées.
+- **Interprétation**: Les régions avec les ventes les plus élevées peuvent indiquer des zones géographiques où la demande pour les produits est plus forte. Cela peut aider à cibler les efforts de marketing et de distribution.
+
+![Ventes par région](data:image/png;base64,{fig_sales_by_region.to_image(format="png").decode()})
+
+## Distribution des Ventes par Représentant Commercial
+Cette visualisation montre la distribution des ventes par représentant commercial. Elle aide à évaluer les performances des différents représentants commerciaux.
+- **Interprétation**: Les représentants commerciaux avec les ventes les plus élevées peuvent être reconnus pour leurs performances exceptionnelles. Cela peut également aider à identifier les besoins de formation pour les représentants avec des ventes plus faibles.
+
+![Ventes par représentant commercial](data:image/png;base64,{fig_sales_by_rep.to_image(format="png").decode()})
+
+## Répartition des Catégories de Produits
+La visualisation suivante montre la répartition des ventes par catégorie de produit. Elle permet de voir quelles catégories de produits génèrent le plus de ventes.
+- **Interprétation**: Les catégories de produits avec les ventes les plus élevées peuvent indiquer les produits les plus populaires et rentables. Cela peut aider à orienter les décisions d'approvisionnement et de développement de produits.
+
+![Répartition des catégories de produits](data:image/png;base64,{fig_product_category.to_image(format="png").decode()})
+
+## Répartition des Types de Clients
+Cette visualisation montre la répartition des ventes par type de client (nouveau ou récurrent). Elle aide à comprendre la proportion de ventes provenant de clients récurrents par rapport aux nouveaux clients.
+- **Interprétation**: Une proportion élevée de clients récurrents peut indiquer une bonne fidélité à la marque. Cela peut aider à évaluer l'efficacité des programmes de fidélisation et à identifier les opportunités pour attirer de nouveaux clients.
+
+![Répartition des types de clients](data:image/png;base64,{fig_customer_type.to_image(format="png").decode()})
+
+## Répartition des Méthodes de Paiement
+La visualisation ci-dessous montre la répartition des ventes par méthode de paiement. Elle permet de voir quelles méthodes de paiement sont les plus utilisées par les clients.
+- **Interprétation**: Les méthodes de paiement les plus utilisées peuvent indiquer les préférences des clients en matière de paiement. Cela peut aider à optimiser les options de paiement proposées pour améliorer l'expérience client.
+
+![Répartition des méthodes de paiement](data:image/png;base64,{fig_payment_method.to_image(format="png").decode()})
+
+## Répartition des Canaux de Vente
+Cette visualisation montre la répartition des ventes par canal de vente (en ligne ou en magasin). Elle aide à comprendre la proportion de ventes réalisées en ligne par rapport aux ventes en magasin.
+- **Interprétation**: Une proportion élevée de ventes en ligne peut indiquer une forte adoption du commerce électronique. Cela peut aider à orienter les investissements dans les plateformes en ligne et les stratégies de marketing numérique.
+
+![Répartition des canaux de vente](data:image/png;base64,{fig_sales_channel.to_image(format="png").decode()})
+
+## Répartition des Montants des Ventes
+La visualisation suivante montre la répartition des montants des ventes. Elle permet de voir la distribution des montants des ventes et d'identifier les tranches de montants les plus fréquentes.
+- **Interprétation**: Les tranches de montants les plus fréquentes peuvent indiquer les gammes de prix les plus populaires. Cela peut aider à ajuster les stratégies de tarification et les promotions.
+
+![Répartition des montants des ventes](data:image/png;base64,{fig_sales_distribution.to_image(format="png").decode()})
+
+## Répartition des Quantités Vendues
+Cette visualisation montre la répartition des quantités vendues. Elle permet de voir la distribution des quantités vendues et d'identifier les tranches de quantités les plus fréquentes.
+- **Interprétation**: Les tranches de quantités les plus fréquentes peuvent indiquer les volumes de vente typiques. Cela peut aider à optimiser les niveaux de stock et les prévisions de demande.
+
+![Répartition des quantités vendues](data:image/png;base64,{fig_quantity_distribution.to_image(format="png").decode()})
+
+## Conclusion
+Ce rapport fournit une vue d'ensemble des ventes à travers différentes dimensions. Les visualisations aident à identifier les tendances et les modèles dans les données de ventes, ce qui peut être utile pour la prise de décision stratégique.
