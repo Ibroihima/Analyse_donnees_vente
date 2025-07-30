@@ -1,7 +1,7 @@
 ---
 title: "Tableau de Bord – Suivi des Ventes et Commandes Annulées"
 author: "ATHOUMANI Ibroihma"
-output: html_document
+
 ---
 
 # Introduction
