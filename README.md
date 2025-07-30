@@ -1,36 +1,84 @@
-# Projet d'Analyse des Ventes
+---
+title: "Tableau de Bord – Suivi des Ventes et Commandes Annulées"
+author: "ATHOUMANI Ibroihma"
+output: html_document
+---
 
-Ce projet utilise des outils de visualisation de données pour analyser les ventes d'une entreprise. Les données sont chargées à partir d'un fichier CSV et plusieurs visualisations sont créées pour explorer différents aspects des ventes.
+# Introduction
 
-## Contenu du projet
+Ce projet présente un **tableau de bord interactif** permettant d'analyser les ventes et les commandes annulées d'une entreprise.  
+Les données y sont visualisées sous forme de **graphiques, indicateurs clés et tableaux dynamiques**, afin de faciliter le suivi et la compréhension des performances commerciales.
 
-1. **Chargement des données**
-    - Les données sont chargées à partir d'un fichier CSV nommé `sales_data.csv`.
+---
 
-2. **Visualisations avec Seaborn et Matplotlib**
-    - Distribution des ventes par région
-    - Distribution des ventes par représentant commercial
-    - Répartition des montants des ventes
-    - Répartition des quantités vendues
-    - Répartition des catégories de produits
-    - Répartition des types de clients
-    - Répartition des méthodes de paiement
-    - Répartition des canaux de vente
-    - Répartition des ventes par mois
+# Fonctionnalités principales
 
-3. **Tableau de bord interactif avec Dash et Plotly**
-    - Ventes par région
-    - Ventes par représentant commercial
-    - Répartition des catégories de produits
-    - Répartition des types de clients
-    - Répartition des méthodes de paiement
-    - Répartition des canaux de vente
+## 1. Suivi des ventes
 
-## Prérequis
+### Indicateurs clés (KPI)
+- **Chiffre d’affaires total** : 2,4 M€
+- **Nombre de commandes** : 500
+- **Quantité vendue** : 3109
+- **Panier moyen** : 4 796 €
 
-- Python 3.x
-- Bibliothèques Python : pandas, seaborn, matplotlib, dash, plotly
+### Visualisations
+- Évolution du chiffre d’affaires et du volume des ventes par année
+- Répartition du chiffre d’affaires par région
+- Répartition du chiffre d’affaires par catégorie de produit
 
-## Auteurs
+### Détail des ventes
+Un tableau détaillé présente l’ensemble des commandes avec :
+- Numéro de commande
+- Date
+- Nom du client
+- Chiffre d’affaires
+- Quantité
+- Statut de la commande
 
-- ATHOUMANI Ibroihma : athoumani.ibroihima@gmail.com
+---
+
+## 2. Analyse des commandes annulées
+
+### Indicateurs clés (KPI)
+- **Total des commandes annulées** : 121
+- **Montant des commandes annulées** : 541 K€
+- **Taux d’annulation** : 25 %
+
+### Visualisations
+- Évolution des commandes annulées par année
+- Pourcentage des commandes annulées par région
+- Répartition des commandes annulées par produit
+- Évolution mensuelle des commandes annulées par produit
+
+---
+
+# Filtres disponibles
+
+Le tableau de bord intègre plusieurs filtres interactifs :
+- **Statut de commande**
+- **Nom de région**
+- **Plage temporelle** (sélection par curseur d’années)
+
+---
+
+# Objectifs du projet
+
+Cet outil d’analyse visuelle permet de :
+
+- Suivre en temps réel les performances commerciales
+- Identifier les zones géographiques et les catégories de produits les plus performantes
+- Détecter les tendances d’annulation pour améliorer les processus et réduire les pertes
+
+---
+
+# Prérequis techniques
+
+- **Power BI** ou tout autre outil compatible avec des rapports interactifs
+  
+
+---
+
+# Auteur
+
+- **ATHOUMANI Ibroihma**  
+  Contact : athoumani.ibroihima@gmail.com
